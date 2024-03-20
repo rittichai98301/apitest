@@ -7,10 +7,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-    host: "localhost",
-    user: 'root',
-    password: '',
-    database: 'signup'
+    host: "27.254.41.5",
+    user: 'sale05_sale',
+    password: '123456zx',
+    database: 'sale05_sale'
 });
 
 app.get('/AllCarz', (req, res) => {
